@@ -24,11 +24,6 @@ function animate() {
 
 document.addEventListener("DOMContentLoaded", function () {
   requestAnimationFrame(animate);
-
-  // FIXME
-  // FIXME
-  // FIXME
-  startParty();
 });
 
 function startParty() {
@@ -37,6 +32,10 @@ function startParty() {
   var confettiSettings = { target: "my-canvas", max: 500, rotate: true };
   var confetti = new ConfettiGenerator(confettiSettings);
   confetti.render();
+
+  jsConfetti.addConfetti({
+    emojis: ["🎉"],
+  });
 
   setInterval(() => {
     setInterval(() => {
