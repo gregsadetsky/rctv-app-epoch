@@ -24,6 +24,11 @@ function animate() {
 
 document.addEventListener("DOMContentLoaded", function () {
   requestAnimationFrame(animate);
+
+  // FIXME
+  // FIXME
+  // FIXME
+  startParty();
 });
 
 function startParty() {
