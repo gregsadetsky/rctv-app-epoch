@@ -1,0 +1,20 @@
+{
+  "name": "app-epoch-party",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "confetti-js": "^0.0.18",
+    "js-confetti": "^0.11.0",
+    "tsparticles-engine": "^2.12.0"
+  }
+}
